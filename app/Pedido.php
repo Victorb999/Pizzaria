@@ -8,6 +8,6 @@ class Pedido extends Model
 {
     //
     protected $fillable = [
-        'telefone_cliente', 'nome_cliente', 'endereco','status'
+        'telefone_cliente', 'nome_cliente', 'endereco','status','id_pizza'
     ];
 }

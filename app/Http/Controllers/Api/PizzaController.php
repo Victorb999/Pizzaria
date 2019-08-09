@@ -36,7 +36,7 @@ class PizzaController extends Controller
             $PizzasData = $request->all();
             $this->Pizza->create($PizzasData);
             return  response()->json(['msg'=> 'Pizza cadastrada com sucesso.'],201);
-        } catch(\Exception $e){
+        } catch(Exception $e){
                            
             return response()->json(['msg'=> 'Houve um erro ao tentar cadastrar.'],101);
             
@@ -49,7 +49,7 @@ class PizzaController extends Controller
             $Pizza = $this->Pizza->find($id);
             $Pizza->update($PizzasData);
             return  response()->json(['msg'=> 'Pizza atualizada com sucesso.'],200);
-        } catch(\Exception $e){
+        } catch(Exception $e){
                            
             return response()->json(['msg'=> 'Houve um erro ao tentar editar.'],1011);
             
@@ -60,7 +60,7 @@ class PizzaController extends Controller
         try{
             $id->delete();
             return  response()->json(['msg'=> 'Deletado com sucesso.'],200);
-        }catch(\Exception $e){
+        }catch(Exception $e){
                            
             return response()->json(['msg'=> 'Houve um erro ao remover.'],1012);
             

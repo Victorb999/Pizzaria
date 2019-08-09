@@ -13,13 +13,13 @@ Os endpoints estão nas rotas
 
 - GET /api/pizzas/ - acessa todas as pizzas
 - GET /api/pizzas/{id} - retorna a pizza pelo id
-- POST /api/pizzas - cadastra a pizza enviando um titulo e uma data de criação
+- POST /api/pizzas - cadastra a pizza 
 - PUT  /api/pizzas/{id}  - edita a pizza com o id selecionado
 - DELETE  /api/pizzas/{id}  - deleta a pizza com o id selecionado
 
 - GET /api/pedidos/ - acessa todas os pedidos
 - GET /api/pedidos/{id} - retorna o pedido pelo id
-- POST /api/pedidos - cadastra o pedido enviando um titulo e uma data de criação
+- POST /api/pedidos - cadastra o pedido
 - PUT  /api/pedidos/{id}  - edita ao pedido com o id selecionado
 - DELETE  /api/pedidos/{id}  - deleta o pedido com o id selecionado
 

@@ -8,6 +8,6 @@ class Pizza extends Model
 {
     //
     protected $fillable = [
-        'sabor', 'numDoctamanhoumento', 'preco'
+        'sabor', 'preco','tamanho'
     ];
 }
